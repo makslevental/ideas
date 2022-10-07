@@ -99,6 +99,8 @@ implement in CIRCT
 
 maybe this can be done using [or-tools](https://github.com/google/or-tools/issues/2014)?
 
+maybe this can be done with [https://github.com/siala/Hybrid-Mistral](https://github.com/siala/Hybrid-Mistral)
+
 ## [Formulating Integer Linear Programs: A Rogues’ Gallery](http://faculty.nps.edu/dell/docs/Formulettes060425.pdf)
 
 just good to know
