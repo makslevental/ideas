@@ -97,6 +97,8 @@ isl official tutorial (read after completing pollylabs tuts)
 
 implement in CIRCT
 
+maybe this can be done using [or-tools](https://github.com/google/or-tools/issues/2014)?
+
 ## [Formulating Integer Linear Programs: A Rogues’ Gallery](http://faculty.nps.edu/dell/docs/Formulettes060425.pdf)
 
 just good to know
