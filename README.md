@@ -1,5 +1,9 @@
 # repos
 
+## [Symbolic Fourier-Motzkin elimination](https://github.com/stephane-caron/pyfme)
+
+not sure
+
 ## [clan](https://github.com/periscop/clan)
 
 Chunky Loop Analyzer: A Polyhedral Representation Extraction Tool for High Level Programs
@@ -37,7 +41,7 @@ use in combination with yices?
 
 ## [Parma Polyhedra Library (PPL)](https://github.com/jfmc/ppl)
 
-how is it different from ISL? [sage bindings?](https://doc.sagemath.org/html/en/reference/numerical/sage/numerical/backends/ppl_backend.html)
+how is it different from ISL? [sage bindings?](https://doc.sagemath.org/html/en/reference/numerical/sage/numerical/backends/ppl_backend.html). also [python bindings](https://github.com/haudren/pyparma)
 
 ## [TAMUparametric PPOPT](https://github.com/TAMUparametric/PPOPT)
 
@@ -115,6 +119,10 @@ read after learning racket
 
 # books
 
+## [CMSC 430:  Design and Implementation of Programming Languages](https://www.cs.umd.edu/class/fall2022/cmsc430/Notes.html)
+
+racket class on implementing small languages
+
 ## [PURELY FUNCTIONAL DATA STRUCTURES](https://doc.lagout.org/programmation/Functional%20Programming/Chris_Okasaki-Purely_Functional_Data_Structures-Cambridge_University_Press%281998%29.pdf)
 
 probably useful for lockfree?
@@ -152,3 +160,15 @@ useful for ... everything?
 ## [A look at the performance of expression templates in C++: Eigen vs Blaze vs Fastor vs Armadillo vs XTensor](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
 
 probably inflated but worth a read
+
+## [hn post about compiling Clang to WASM](https://news.ycombinator.com/item?id=30991235)
+
+compile MLIR to wasm in order to run in browser? maybe that's useless and just use torch-mlir wheels
+
+## [PCIe latency](http://hackingnasdaq.blogspot.com/2014/05/pcie-latency.html?m=1)
+
+hack pcie to get lower than 0.5us latency
+
+## [Simplification of Presburger formulas in practice](https://cstheory.stackexchange.com/questions/21281/simplification-of-presburger-formulas-in-practice)
+
+cs.theory discussing how presburger formulas actually work - including some discussion of BDDs
