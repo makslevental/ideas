@@ -1,4 +1,61 @@
+- [repos](#repos)
+- [papers](#papers)
+- [books](#books)
+- [blags](#blags)
+
 # repos
+
+## [Parameterizing Branch-and-Bound Search Trees to Learn Branching Policies](https://github.com/ds4dm/branch-search-trees)
+
+## [angr is a platform-agnostic binary analysis framework](https://github.com/angr/angr)
+
+angr's power comes not from it being an emulator, but from being able to execute with what we call symbolic variables. 
+
+## [Apple AMX Instruction Set](https://github.com/corsix/amx)
+
+potential target for low latency (or sparse?) stuff
+
+## [SDSL - Succinct Data Structure Library](https://github.com/simongog/sdsl-lite)
+
+gonna need this sooner or later 
+
+## [GILP (Geometric Interpretation of Linear Programs)](https://github.com/engri-1101/gilp)
+
+just useful for learning about BB (what about interior point?)
+
+## [Symbolic Fourier-Motzkin elimination](https://github.com/stephane-caron/pyfme)
+
+is this the actual basis of PIP?
+
+## [Page-Visibility-User-Script](https://github.com/IceWreck/Page-Visibility-User-Script)
+
+for hackerrank interviews...
+
+## [islpy](https://github.com/inducer/islpy)
+
+## [Solve puzzles. Learn CUDA.](https://github.com/srush/GPU-Puzzles)
+
+## [Clockwork: Polyhedral Analysis for Hardware Accelerators](https://github.com/dillonhuff/clockwork)
+
+## [AST-transformations (jetbrains)](https://github.com/JetBrains-Research/ast-transformations)
+
+can i use this for a better python ast? also [https://plugins.jetbrains.com/docs/intellij/psi.html](https://plugins.jetbrains.com/docs/intellij/psi.html)
+
+## [Entropy-Directed Scheduling ](https://github.com/chhzh123/Entropy-directed-scheduling)
+
+implement for CIRCT?
+
+## [Circle](https://github.com/rsta2/circle)
+
+Circle is a C++ bare metal programming environment for the Raspberry Pi.
+
+## [Easy creation of custom import hooks to experiment on alternatives to Python's syntax](https://github.com/aroberge/ideas)
+
+basically does rewrite on import which enables python files to host alternative syntax. kind of cute but not really what i want
+
+## [Optimization Modulo Theories examples](https://github.com/PatrickTrentin88/omt_python_examples)
+
+static memory allocation problem can be formulated as LRA opt + XOR? also [https://optimathsat.disi.unitn.it/](https://optimathsat.disi.unitn.it/).
 
 ## [Symbolic Fourier-Motzkin elimination](https://github.com/stephane-caron/pyfme)
 
@@ -71,6 +128,24 @@ is this faster than solving the CSP?
 
 # papers
 
+## [SCIL - Symbolic Constraints in Integer Linear programming](https://link.springer.com/content/pdf/10.1007/3-540-45749-6_11.pdf)
+
+also https://software.cs.uni-koeln.de/scil/documentation/html/main.html
+
+## [Bounded Search and Symbolic Inference for Constraint Optimization](https://www.ijcai.org/Proceedings/05/Papers/1571.pdf)
+
+We present a novel algorithm for finite domain constraint optimization that generalizes branch-and-bound search by reasoning about sets of assignments rather than individual assignments.
+
+## [High Throughput Low Latency Online Image Processing by GPU/FPGA Coprocessors Using RDMA Techniques](https://sc20.supercomputing.org/proceedings/doctoral_showcase/doc_showcase_pages/drs107.html)
+
+the next step of the low latency work
+
+## [A Lightweight Symbolic Virtual Machine for Solver-Aided Host Languages](https://homes.cs.washington.edu/~emina/doc/rosette.pldi14.pdf)
+
+don't quite understand this but symbolic virtual machine is what i need for various parts of the static memory planning thing
+
+## [Symbolic Optimization with SMT Solvers](https://pages.cs.wisc.edu/~aws/papers/popl14.pdf)
+
 ## [An Efficient Parametric Linear Programming Solver and Application to Polyhedral Projection](https://core.ac.uk/download/pdf/265345708.pdf)
 
 ## [Geometric Algorithm for Multiparametric Linear Programming](http://cse.lab.imtlucca.it/~bemporad/publications/papers/jota-mplp.pdf)
@@ -131,11 +206,46 @@ racket class on implementing small languages
 
 probably useful for lockfree?
 
-[Game Programming Patterns](https://gameprogrammingpatterns.com/)
+## [Game Programming Patterns](https://gameprogrammingpatterns.com/)
 
 just good to know
 
-# blags
+## [Optimizing Compilers for Modern Architectures](https://www.elsevier.com/books/optimizing-compilers-for-modern-architectures/allen/978-0-08-051324-9)
+
+required reading but i'll probably never get to it?
+
+## [Types and Programming Languages](https://www.cis.upenn.edu/~bcpierce/tapl/)
+
+required reading but i'll probably never get to it?
+
+# blags/websites
+
+## [An Introduction to Binary Decision Diagrams](https://news.ycombinator.com/item?id=32993015)
+
+## [Building a Tiny Mutex](https://zig.news/kprotty/building-a-tiny-mutex-537k)
+
+definitely need to know this for HFT
+
+## [Race Conditions Can Be Useful for Parallelism](https://news.ycombinator.com/item?id=33054378)
+
+## [The Solid-State Register Allocator](https://www.mattkeeter.com/blog/2022-10-04-ssra/)
+
+suitable allocation algo for nns?
+
+## [Static, Shared Dynamic and Loadable Linux Libraries](http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html)
+
+re the MLIR pass plugin project. also [https://developer.ibm.com/tutorials/l-dynamic-libraries/](https://developer.ibm.com/tutorials/l-dynamic-libraries/)
+
+## [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/)
+
+maybe for bare metal arm but also maybe bare metal gpu
+
+## [Boosting Inline Packet Processing Using DPDK and GPUdev with GPUs](https://developer.nvidia.com/blog/optimizing-inline-packet-processing-using-dpdk-and-gpudev-with-gpus/)
+
+this is the next stage of the low latency project
+
+also [https://forums.developer.nvidia.com/t/boosting-inline-packet-processing-using-dpdk-and-gpudev-with-gpus/212943)](https://forums.developer.nvidia.com/t/boosting-inline-packet-processing-using-dpdk-and-gpudev-with-gpus/212943))
+and [Benchmarking GPUDirect RDMA on Modern Server Platforms](https://developer.nvidia.com/blog/benchmarking-gpudirect-rdma-on-modern-server-platforms/)
 
 ## [mp-LE, explicit solutions](https://dkenefake.github.io/blog/mpLE)
 
